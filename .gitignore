@@ -1,0 +1,28 @@
+# Archivos principales de WordPress
+wp-config.php
+.htaccess
+
+# Directorios y archivos que no deben incluirse
+wp-content/debug.log
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backups/
+wp-content/uploads/
+
+# Plugins y temas que pueden ser específicos a desarrollo
+wp-content/plugins/
+wp-content/themes/*
+
+# Exclusiones específicas (mantén estos plugins/temas específicos)
+!wp-content/plugins/mi-plugin-esencial/
+!wp-content/themes/mi-tema-esencial/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de entornos de desarrollo
+*.log
+*.idea/
+*.vscode/
+*.env
